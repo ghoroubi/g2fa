@@ -1,3 +1,3 @@
-module github.com/ghoroubi/google2fa
+module gitlab.yourypto.com/core/common-modules/google2fa
 
 go 1.15

@@ -48,8 +48,6 @@ func ComputeCode(secret string, value int64) int {
 	return int(code)
 }
 
-
-
 func (c *OTPConfig) checkScratchCodes(code int) bool {
 
 	for i, v := range c.ScratchCodes {
